@@ -5,7 +5,7 @@
 `http://host/api/iqc/batches?database=<database>&access_token=<access_token>&state=<state>&offset=<offset>&limit=<limit>`
 
 ##### HTTP 方法:
-POST
+GET
 
 #####参数详细:
 
