@@ -28,23 +28,39 @@ GET
 
 [
     {
-        "work_no": 0,
         "inspection_quantity": 0,
-        "arrival_date": false,
         "order_no": "1",
-        "part_no": false,
-        "ok_quantity": 0,
-        "instruction": {},
-        "supplier_no": false,
         "pos": "1",
-        "rules": [],
+        "part": {
+            "remark": false,
+            "image_medium": null,
+            "name": "测试零件",
+            "rules": [],
+            "image": null,
+            "unit_en": false,
+            "image_small": null,
+            "machine": false,
+            "instruction": {},
+            "c3": false,
+            "c2": false,
+            "name_en": false,
+            "c1": false,
+            "id": 2,
+            "unit": false,
+            "c4": false
+        },
+        "id": 4,
+        "work_no": 0,
+        "arrival_date": false,
+        "ok_quantity": 0,
         "state": "draft",
-        "part": {},
         "ng_quantity": 0,
-        "inspection_datetime": false,
-        "supplier": {},
+        "supplier": {
+            "name": "测试供应商",
+            "no": "1"
+        },
         "is_urgent": false,
-        "id": 3,
+        "inspection_datetime": false,
         "quantity": 0
     }
 ]
