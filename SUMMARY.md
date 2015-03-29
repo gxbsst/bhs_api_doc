@@ -1,11 +1,20 @@
 # Summary
 
 * [Introduction](README.md)
+* [通用](common.md)
    * [检测员登录](inspector_auth.md)
+* [分拣](sorting.md)
    * [获取批次](get_batches.md)
-   * [获取某个package的信息.](get_one_package.md)
    * [获取一个空库位](get_empty_stock_location.md)
    * [获取一个满库位](get_full_stock_location.md)
    * [更新库位状态](update_stock_location.md)
-   * [检测某个零件的某个部分](inspect_one_part.md)
+* [检测](inspection.md)
+   * [获取某个package的信息(获取检测流程)](get_one_package.md)
+   * [提交检测结果](create_inspection_log.md)
+   * [更新检测结果](update_inspection_log.md)
+   * [获取某个批次的NCR信息](get_one_ncr.md)
+   * [获取NCR Items](get_ncr_items.md)
+   * [创建NCR Item](create_ncr_item.md)
+   * [更新NCR Item](update_ncr_item.md)
+   * [获取检测错误代码](get_all_fail_codes.md)
 

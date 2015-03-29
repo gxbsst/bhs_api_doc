@@ -1,14 +1,8 @@
-# 获取某个package(获取检测流程)
-
-
-### 描述
-```
-获取检测流程
-```
+# 获取某个批次的NCR信息
 
 ### URL
 
-`http://host/api/iqc/packages/<qr_code>/?database=<database>&access_token=<access_token>`
+`http://host/api/iqc/ncrs/<batch_id>/?database=<database>&access_token=<access_token>`
 
 ##### HTTP 方法:
 GET
@@ -18,7 +12,8 @@ GET
 **database**: 当前openerp启动使用的数据名字, 请咨询API开发者。
 
 **access_token**:  用户登陆token， 请咨询API开发者
-**qr_code**: package的qr_code
+
+**batch_id**:  某批次的id(batch id)
 
 ** 返回 **:
 
@@ -26,6 +21,41 @@ GET
 
 ``` json
 {
+    "ncr_items": [
+        {
+            "fail_code": {
+                "description": "description",
+                "code": 1,
+                "id": 2,
+                "name": "name 3"
+            },
+            "inspection_log": {
+                "status": "ng",
+                "description": false,
+                "order_no": "1",
+                "part_no": "1",
+                "pos": "1",
+                "package_id": false,
+                "part_id": 1,
+                "measurement": 0,
+                "inspection_id": 9,
+                "batch_id": 3,
+                "inspector_id": 1,
+                "rule_id": 1
+            },
+            "id": 5,
+            "ncr_id": 5
+        }
+    ],
+    "inspection": [
+        {
+            "batch_id": 3,
+            "ok_quantity": 2,
+            "ng_quantity": 24,
+            "id": 9
+        }
+    ],
+    "id": 5,
     "batch": {
         "work_no": 1,
         "inspection_quantity": 1,
@@ -35,7 +65,7 @@ GET
         "ok_quantity": 1,
         "supplier_no": "1",
         "pos": "1",
-        "state": "draft",
+        "state": "packaged",
         "part": {
             "instruction": {
                 "name": "name 1",
@@ -44,42 +74,42 @@ GET
             "rules": [
                 {
                     "tool": "tool",
-                    "standard": 1,
-                    "down": 0,
+                    "standard": 12,
+                    "down": 11,
                     "step": 1,
-                    "part_id": 2,
+                    "part_id": 1,
                     "id": 1,
                     "name": "name 1",
                     "coord_y": 21,
                     "coord_x": 11,
-                    "up": 0,
-                    "type": "quantitative"
+                    "up": 15,
+                    "type": "qualitative"
                 },
                 {
                     "tool": "tool",
-                    "standard": 1,
-                    "down": 0,
+                    "standard": 11,
+                    "down": 11,
                     "step": 2,
-                    "part_id": 2,
+                    "part_id": 1,
                     "id": 2,
                     "name": "name 1",
                     "coord_y": 21,
                     "coord_x": 11,
-                    "up": 0,
+                    "up": 15,
                     "type": "quantitative"
                 },
                 {
                     "tool": "tool",
-                    "standard": 1,
-                    "down": 0,
+                    "standard": 11,
+                    "down": 1,
                     "step": 3,
-                    "part_id": 2,
+                    "part_id": 1,
                     "id": 3,
                     "name": "name 1",
                     "coord_y": 21,
                     "coord_x": 11,
-                    "up": 0,
-                    "type": "quantitative"
+                    "up": 15,
+                    "type": "qualitative"
                 }
             ],
             "c3": "c3",
@@ -91,7 +121,7 @@ GET
             "remark": "Remark....",
             "name": "name 1",
             "unit_en": "package",
-            "id": 2,
+            "id": 1,
             "machine": "machine name"
         },
         "ng_quantity": 1,
@@ -101,13 +131,9 @@ GET
             "no": "123456"
         },
         "is_urgent": false,
-        "id": 2,
+        "id": 3,
         "quantity": 1
-    },
-    "state": "draft",
-    "qr_code": "1111",
-    "id": 2,
-    "quantity": 10
+    }
 }
 
 
