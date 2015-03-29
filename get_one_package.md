@@ -2,7 +2,7 @@
 
 ### URL
 
-`http://host/api/iqc/packages/<qr_code>/?database=<database>&token=<access_token>`
+`http://host/api/iqc/packages/<qr_code>/?database=<database>&access_token=<access_token>`
 
 ##### HTTP 方法:
 GET
@@ -19,66 +19,63 @@ GET
 参考一下
 
 ``` json
-
 {
-    "qr_code": "1111",
     "batch": {
         "work_no": 1,
         "inspection_quantity": 1,
         "arrival_date": "2012-10-11 19:00:00",
         "order_no": "1",
-        "part_no": "12",
+        "part_no": "1",
         "ok_quantity": 1,
-        "instruction": {
-            "name": "name 1",
-            "file": null
-        },
         "supplier_no": "1",
         "pos": "1",
-        "rules": [
-            {
-                "tool": "tool",
-                "standard": 1,
-                "down": 0,
-                "step": 1,
-                "part_id": 1,
-                "id": 1,
-                "name": "name 1",
-                "coord_y": 21,
-                "coord_x": 11,
-                "up": 0,
-                "type": "quantitative"
-            },
-            {
-                "tool": "tool",
-                "standard": 1,
-                "down": 0,
-                "step": 2,
-                "part_id": 1,
-                "id": 2,
-                "name": "name 1",
-                "coord_y": 21,
-                "coord_x": 11,
-                "up": 0,
-                "type": "quantitative"
-            },
-            {
-                "tool": "tool",
-                "standard": 1,
-                "down": 0,
-                "step": 3,
-                "part_id": 1,
-                "id": 3,
-                "name": "name 1",
-                "coord_y": 21,
-                "coord_x": 11,
-                "up": 0,
-                "type": "quantitative"
-            }
-        ],
         "state": "draft",
         "part": {
-            "instruction_id": 2,
+            "instruction": {
+                "name": "name 1",
+                "file": null
+            },
+            "rules": [
+                {
+                    "tool": "tool",
+                    "standard": 1,
+                    "down": 0,
+                    "step": 1,
+                    "part_id": 2,
+                    "id": 1,
+                    "name": "name 1",
+                    "coord_y": 21,
+                    "coord_x": 11,
+                    "up": 0,
+                    "type": "quantitative"
+                },
+                {
+                    "tool": "tool",
+                    "standard": 1,
+                    "down": 0,
+                    "step": 2,
+                    "part_id": 2,
+                    "id": 2,
+                    "name": "name 1",
+                    "coord_y": 21,
+                    "coord_x": 11,
+                    "up": 0,
+                    "type": "quantitative"
+                },
+                {
+                    "tool": "tool",
+                    "standard": 1,
+                    "down": 0,
+                    "step": 3,
+                    "part_id": 2,
+                    "id": 3,
+                    "name": "name 1",
+                    "coord_y": 21,
+                    "coord_x": 11,
+                    "up": 0,
+                    "type": "quantitative"
+                }
+            ],
             "c3": "c3",
             "c2": "c2",
             "name_en": "name en 1",
@@ -88,7 +85,7 @@ GET
             "remark": "Remark....",
             "name": "name 1",
             "unit_en": "package",
-            "id": 1,
+            "id": 2,
             "machine": "machine name"
         },
         "ng_quantity": 1,
@@ -98,13 +95,12 @@ GET
             "no": "123456"
         },
         "is_urgent": false,
-        "inspector": {},
-        "id": 1,
+        "id": 2,
         "quantity": 1
     },
     "state": "draft",
-    "batch_id": 1,
-    "id": 1,
+    "qr_code": "1111",
+    "id": 2,
     "quantity": 10
 }
 
