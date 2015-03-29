@@ -4,7 +4,7 @@
 
 ### URL
 
-`http://host/api/iqc/packages/<qr_code>/?database=<database>&token=<access_token>`
+`http://host/api/iqc/packages/<qr_code>/?database=<database>&access_token=<access_token>`
 
 ##### HTTP 方法:
 POST
