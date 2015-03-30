@@ -18,6 +18,8 @@ PATCH
 
 **state**: 需要更新的状态值，取empty或者full。
 
+**package_id**: 在存放货物的时候需要提供此字段，清空库位的时候无需提供。
+
 ** 返回 **:
 
 参考一下
@@ -31,7 +33,6 @@ PATCH
     "name": "111",
     "state": "empty",
     "active": true,
-    "package_id": false,
     "package": {},
     "id": 1
 }

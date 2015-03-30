@@ -28,7 +28,6 @@ GET
     "name": "111",
     "state": "full",
     "active": true,
-    "package_id": false,
     "package": {},
     "id": 1
 }
