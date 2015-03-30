@@ -17,4 +17,5 @@
    * [创建NCR Item](create_ncr_item.md)
    * [更新NCR Item](update_ncr_item.md)
    * [获取检测错误代码](get_all_fail_codes.md)
+   * [获取某个零件检测图](get_instruction_image.md)
 
