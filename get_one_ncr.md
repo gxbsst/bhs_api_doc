@@ -67,30 +67,30 @@ GET
         "pos": "1",
         "state": "packaged",
         "part": {
-            "instruction": {
-                "name": "name 1",
-                "file": null
-            },
+            "remark": "Remark....",
+            "image_medium": "/api/iqc/part_images/5?size=medium",
+            "name": "name 1",
+            "instruction_image": "/api/iqc/part_instruction_images/5",
             "rules": [
                 {
                     "tool": "tool",
-                    "standard": 12,
-                    "down": 11,
+                    "standard": 11,
+                    "down": 10,
                     "step": 1,
-                    "part_id": 1,
+                    "part_id": 5,
                     "id": 1,
                     "name": "name 1",
                     "coord_y": 21,
                     "coord_x": 11,
                     "up": 15,
-                    "type": "qualitative"
+                    "type": "quantitative"
                 },
                 {
                     "tool": "tool",
-                    "standard": 11,
+                    "standard": 1,
                     "down": 11,
                     "step": 2,
-                    "part_id": 1,
+                    "part_id": 5,
                     "id": 2,
                     "name": "name 1",
                     "coord_y": 21,
@@ -101,15 +101,15 @@ GET
                 {
                     "tool": "tool",
                     "standard": 11,
-                    "down": 1,
+                    "down": 10,
                     "step": 3,
-                    "part_id": 1,
+                    "part_id": 5,
                     "id": 3,
                     "name": "name 1",
                     "coord_y": 21,
                     "coord_x": 11,
                     "up": 15,
-                    "type": "qualitative"
+                    "type": "quantitative"
                 }
             ],
             "c3": "c3",
