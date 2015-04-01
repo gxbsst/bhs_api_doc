@@ -2,7 +2,7 @@
 
 ### URL
 
-`http://host/api/iqc/batches<batch_id>?database=<database>&access_token=<access_token>`
+`http://host/api/iqc/batches/<batch_id>?database=<database>&access_token=<access_token>`
 
 ##### HTTP 方法:
 GET
