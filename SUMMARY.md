@@ -5,6 +5,7 @@
    * [检测员登录](inspector_auth.md)
 * [分拣](sorting.md)
    * [获取批次](get_batches.md)
+   * [更新批次状态](update_batch.md)
    * [获取一个空库位](get_empty_stock_location.md)
    * [获取一个满库位](get_full_stock_location.md)
    * [更新库位状态](update_stock_location.md)
