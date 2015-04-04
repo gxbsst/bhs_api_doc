@@ -5,7 +5,7 @@
 `http://host/iqc/locations/actions/pull?database=<database>&access_token=<access_token>`
 
 ##### HTTP 方法:
-GET
+POST
 
 #####参数详细:
 
