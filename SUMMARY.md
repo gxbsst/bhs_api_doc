@@ -16,10 +16,8 @@
    * [提交检测结果](create_inspection_log.md)
    * [更新检测结果](update_inspection_log.md)
    * [获取某个批次的NCR信息](get_one_ncr.md)
-   * [获取NCR Items](get_ncr_items.md)
-   * [创建NCR Item](create_ncr_item.md)
-   * [更新NCR Item](update_ncr_item.md)
    * [获取检测错误代码](get_all_fail_codes.md)
    * [获取某个零件检测图](get_instruction_image.md)
    * [更新ng或者ok的数量](update_inspections_qty.md)
+   * [get inspection logs](get_inspection_logs.md)
 
