@@ -2,18 +2,16 @@
 
 ### URL
 
-`http://host/iqc/locations?database=<database>&access_token=<access_token>&method=pull`
+`http://host/iqc/locations/actions/pull?database=<database>&access_token=<access_token>`
 
 ##### HTTP 方法:
-GET
+POST
 
 #####参数详细:
 
 **database**: 当前openerp启动使用的数据名字, 请咨询API开发者。
 
 **access_token**:  用户登陆token， 请咨询API开发者
-
-**method**: 方式或方法，这里固定取值pull（表示是为了拉取）。
 
 ** 返回 **:
 
@@ -28,7 +26,32 @@ GET
     "name": "111",
     "state": "full",
     "active": true,
-    "package": {},
+    "package": {
+        "batch": {
+            "inspection_quantity": false,
+            "order_no": false,
+            "pos": false,
+            "arrival_date_str": "",
+            "part": {},
+            "is_sampling": false,
+            "id": 0,
+            "work_no": false,
+            "ok_quantity": false,
+            "state": false,
+            "ng_quantity": false,
+            "supplier": {
+                "name": false,
+                "no": false
+            },
+            "is_urgent": false,
+            "inspection_datetime": null,
+            "quantity": false
+        },
+        "state": false,
+        "qr_code": "",
+        "id": 0,
+        "quantity": false
+    },
     "id": 1
 }
 
