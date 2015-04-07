@@ -35,21 +35,41 @@ PATCH
 参考一下
 
 ``` json
-{
-"id": 1,
-"status":"ng",
-"description": "hhhh",
-"order_no": "1",
-"part_no": 1,
-"pos": 1,
-"package_id": 2,
-"part_id": 1,
-"measurement": 110.2,
-"inspection_id": 9,
-"batch_id": 3,
-"inspector_id": 1,
-"rule_id": 1,
-"ng_qty": 1,
-"fail_code_id": 1
-}
+
+    {
+        "status": "ng",
+        "ng_qty": "",
+        "description": "",
+        "order_no": "0134799",
+        "part_no": "10002",
+        "fail_code_name": "",
+        "fail_code_id": "",
+        "pos": "001",
+        "rule_id": {
+            "reference_value": "",
+            "tool": "工具1",
+            "standard": 11,
+            "down": 10,
+            "step": 1,
+            "part_id": 13,
+            "id": 1,
+            "unit": "mm",
+            "name": "步骤1",
+            "coord_y": 21,
+            "coord_x": 11,
+            "standard_str": "",
+            "up": 15,
+            "type": "quantitative"
+        },
+        "fail_code_description": "",
+        "package_id": "",
+        "inspection_id": 3,
+        "fail_code_code": "",
+        "part_id": 13,
+        "measurement": 1,
+        "batch_id": 12,
+        "inspector_id": 24,
+        "id": 2,
+        "ncr_id": 3
+    }
 ```

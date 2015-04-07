@@ -29,19 +29,39 @@ GET
 [
     {
         "status": "ng",
-        "description": "1111",
-        "fail_code_description": "description",
-        "fail_code_id": 2,
-        "fail_code_code": "name 3",
-        "part_id": 9,
-        "measurement": 111,
-        "id": 1,
-        "ng_qty": 11,
-        "fail_code_name": "name 3",
-        "inspection_id": 1,
-        "batch_id": 22,
-        "inspector_id": 8,
-        "rule_id": 1
+        "ng_qty": "",
+        "description": "",
+        "order_no": "0134799",
+        "part_no": "10002",
+        "fail_code_name": "",
+        "fail_code_id": "",
+        "pos": "001",
+        "rule_id": {
+            "reference_value": "",
+            "tool": "工具1",
+            "standard": 11,
+            "down": 10,
+            "step": 1,
+            "part_id": 13,
+            "id": 1,
+            "unit": "mm",
+            "name": "步骤1",
+            "coord_y": 21,
+            "coord_x": 11,
+            "standard_str": "",
+            "up": 15,
+            "type": "quantitative"
+        },
+        "fail_code_description": "",
+        "package_id": "",
+        "inspection_id": 3,
+        "fail_code_code": "",
+        "part_id": 13,
+        "measurement": 1,
+        "batch_id": 12,
+        "inspector_id": 24,
+        "id": 2,
+        "ncr_id": 3
     }
 ]
 
