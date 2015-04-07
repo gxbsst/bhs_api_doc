@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [通用](common.md)
    * [检测员登录](inspector_auth.md)
+   * [看板](kanban.md)
 * [分拣](sorting.md)
    * [获取批次](get_batches.md)
    * [获取一个空库位（上货）](get_empty_stock_location.md)
