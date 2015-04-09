@@ -17,8 +17,9 @@ GET
 
 **database**: 当前openerp启动使用的数据名字, 请咨询API开发者。
 
-**access_token**:  用户登陆token， 请咨询API开发者
-**qr_code**: package的qr_code
+**access_token**:  用户登陆token， 请咨询API开发者。
+
+**qr_code**: package的qr_code。
 
 ** 返回 **:
 

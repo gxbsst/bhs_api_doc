@@ -11,11 +11,9 @@ POST
 
 **database**: 当前openerp启动使用的数据名字, 请咨询API开发者。
 
-**access_token**:  用户登陆token， 请咨询API开发者
+**access_token**:  用户登陆token， 请咨询API开发者。
 
-#####表单参数:
-
-**package_id**: 需要存放的包ID。
+**qr_code**: 托盘二维码。
 
 ** 返回 **:
 
