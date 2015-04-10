@@ -51,7 +51,7 @@ POST
         "fail_code_name": "",
         "fail_code_id": "",
         "pos": "001",
-        "rule_id": {
+        "rule": {
             "reference_value": "",
             "tool": "工具1",
             "standard": 11,

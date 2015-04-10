@@ -2,7 +2,7 @@
 
 ### URL
 
-`http://host/api/iqc/inspection_logs?database=<database>&access_token=<access_token>`
+`http://host/api/iqc/inspection_logs/{log_id}?database=<database>&access_token=<access_token>`
 
 ##### HTTP 方法:
 
@@ -45,7 +45,7 @@ PATCH
         "fail_code_name": "",
         "fail_code_id": "",
         "pos": "001",
-        "rule_id": {
+        "rule": {
             "reference_value": "",
             "tool": "工具1",
             "standard": 11,
