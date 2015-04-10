@@ -21,5 +21,5 @@
    * [获取某个零件检测图](get_instruction_image.md)
    * [更新ng或者ok的数量](update_inspections_qty.md)
    * [获取Inpsection Logs 列表](get_inspection_logs.md)
-   * [update one batch](update_one_batch.md)
+   * [更新批次](update_one_batch.md)
 
