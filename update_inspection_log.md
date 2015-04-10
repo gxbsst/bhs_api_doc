@@ -2,7 +2,7 @@
 
 ### URL
 
-`http://host/api/iqc/inspection_logs?database=<database>&access_token=<access_token>`
+`http://host/api/iqc/inspection_logs/{log_id}?database=<database>&access_token=<access_token>`
 
 ##### HTTP 方法:
 
