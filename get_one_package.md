@@ -21,6 +21,8 @@ GET
 
 **qr_code**: package的qr_code。
 
+**action**: 如果获取当前接口为检测一体机，则: action=inspect
+
 ** 返回 **:
 
 参考一下
