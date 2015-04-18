@@ -34,6 +34,10 @@ POST
 
 **ng_qty**: 出现该错误的零件数
 
+`update_at: 2015-04-18`
+
+**fail_code_item_id** 具体的错误信息
+
 
 
 ** 返回 **:

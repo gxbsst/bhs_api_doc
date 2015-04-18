@@ -31,6 +31,7 @@ GET
             "part_no": "10002",
             "fail_code_name": "",
             "fail_code_id": "",
+            "fail_code_item_id",
             "pos": "001",
             "rule": {
                 "reference_value": "",
