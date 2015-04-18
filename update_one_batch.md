@@ -1,4 +1,4 @@
-# 更新Batch信息
+# 更新批次
 
 ### 说明
 该API使用在检测零件时， 当检测完成某个批次，更新batch的状态
@@ -17,9 +17,9 @@ PATCH
 
 **database**: 当前openerp启动使用的数据名字, 请咨询API开发者。
 
-**access_token**:  用户登陆token， 请咨询API开发者
+**access_token**:  用户登陆token， 请咨询API开发者。
 
-**package_id"**:  package id
+**batch_id"**:  batch id。
 
 **state**: batch总共有四种状态(`draft`, `packaging`, `packaged`, `inspected`)
 
