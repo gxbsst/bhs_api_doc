@@ -104,6 +104,7 @@ POST
             "c4": "c4"
         },
         "is_sampling": false,
+        "packaged_quantity": 0,
         "id": 1,
         "work_no": 1,
         "ok_quantity": 1,
