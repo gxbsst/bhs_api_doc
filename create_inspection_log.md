@@ -30,7 +30,9 @@ POST
 
 **status**: 如果为定性，则需要输入`ng` 或者 `ok`
 
-**fail_code_id**: 错误代码id
+**fail_code_id**: 错误代码大分类id
+
+**fail_code_item_id**: 错误代码小分类id
 
 **ng_qty**: 出现该错误的零件数
 
