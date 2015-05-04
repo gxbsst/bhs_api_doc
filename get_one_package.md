@@ -116,7 +116,8 @@ GET
     "state": "draft",
     "qr_code": "1111",
     "id": 1,
-    "quantity": 10
+    "quantity": 10,
+    "inspected_qty": 0
 }
 
 
