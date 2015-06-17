@@ -23,6 +23,8 @@ PATCH
 
 **state**: package总共有三种状态(`draft`, `inspecting`, `inspected`)
 
+**inspected_qty** 更新当前package已经检测的数量
+
 
 
 ** 返回 **:
