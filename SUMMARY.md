@@ -13,6 +13,8 @@
    * [创建一个package(分拣)](create_a_package.md)
    * [取空箱](get_empty_package.md)
    * [获取所有库位信息](get_all_stock_locations.md)
+   * [取消针对库位的上次动作](cancel_last_action.md)
+   * [继续完成针对库位的上次动作](continue_last_action.md)
 * [检测](inspection.md)
    * [获取某个package的信息(获取检测流程)](get_one_package.md)
    * [更新package信息](update_a_package.md)
